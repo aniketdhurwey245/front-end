@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    font-family: areal;
+    border:border-box ;
+    
+}
+
+.navbar{
+    height:120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.nav-logo{
+    height:100px ;
+    width: 9.5%;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+}
+
+/** border hover property**/ 
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white ;
+}
+
+/** box2**/
+
+.nav-name{
+    height:100px;
+    width: 90%;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #9FB8DB;
+    font-size: 1rem;
+    position: relative;
+    top:0px;
+    font-weight: 200;
+}
+
+
+
+
+/** box3**/
+
+.nav-content{
+    height:27px;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    background-color: aliceblue;
+    color: black;
+    font-size:1.2rem ;
+    font-weight: 500;
+
+}
+
+.name{
+text-align: center;
+color: brown;
+font-size: 1.5rem;
+font-weight: 300;
+padding: 5px;
+
+}
+
+.uni{
+    text-align: center;
+    color: brown;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 2px;
+}
+.grade{
+    text-align: center;
+color: rgb(240, 9, 9);
+font-size:15px ;
+font-weight: 200;
+padding: 2px;
+}
+
+/**content  **/
+
+.container{
+height:350px ;
+display:flex;
+justify-content: space-evenly;
+text-align: center;
+position: relative;
+top:20px;
+font-size: 1.1rem;
+font-weight: 500;
+
+}
+
+.notice{
+    height:350px;
+    width: 360px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: block;
+    
+
+}
+
+.academic{
+    height:350px;
+    width: 360px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.exam{
+    height:350px;
+    width: 360px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.place{
+    height:350px;
+    width: 360px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+/** information about clubs**/
+
+.clubies{
+    text-align: center;
+    position:relative;
+    top:35px;
+    text-decoration: underline red;
+    
+
+}
+
+.clubs{
+   height:450px;
+   display:flex;
+   justify-content:space-around;
+   flex-wrap: wrap;
+   
+   position: relative;
+   top:50px;
+
+}
+/* add intesecting observer */
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);;
+    transition:all 1s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
+
+.sdc{
+    height:220px;
+    width:370px;
+    background-color: #9FB8DB;
+  
+    border-radius: 20px;
+    transition-delay: 200ms;
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 1rem;
+}
+.box-image1{ 
+    height:170px ;
+    border-radius: 20px;
+    margin: 10px;
+    padding-top:2px ;
+    background-image: url("SDC.jpg");
+    background-size: cover;
+
+}
+
+
+.science{
+    height:220px;
+    width:370px;
+    background-color: #9FB8DB;
+    border-radius: 20px;
+    transition-delay: 400ms;
+}
+
+.box-image2{ 
+    height:170px ;
+    margin: 10px;
+    padding-top:5px ;
+    background-image: url("science.png");
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+
+.dance{
+    height:220px;
+    width:370px;
+    background-color: #9FB8DB;
+    border-radius: 20px;
+    transition-delay: 600ms;
+}
+
+.box-image3{ 
+    height:170px ;
+    margin: 10px;
+    padding-top:5px ;
+    background-image: url("dance.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.singing{
+    height:220px;
+    width:370px;
+    background-color:#9FB8DB;
+    border-radius: 20px;
+    transition-delay: 800ms;
+}
+
+.box-image4{ 
+    height:170px ;
+    margin: 10px;
+    padding-top:5px ;
+    background-image: url("singing.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.hindi{
+    height:220px;
+    width:370px;
+    background-color: #9FB8DB;
+    border-radius: 20px;
+    transition-delay: 1000ms;
+}
+
+.box-image5{ 
+    height:170px ;
+    margin: 10px;
+    padding-top:5px ;
+    background-image: url("hindi.png");
+    background-size: cover;
+    border-radius: 20px;
+    
+
+}
+
+
+.sport{
+    height:220px;
+    width:370px;
+    background-color: #9FB8DB;
+    border-radius: 20px;
+    transition-delay: 1200ms;
+    
+}
+
+.box-image6{ 
+    height:170px ;
+    margin: 10px;
+    padding-top:5px ;
+    background-image: url("sports.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+
+}
+.box-image7{ 
+    height:170px ;
+    margin: 10px;
+    padding-top:5px ;
+    background-image: url("poetry.jpeg");
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+.poetry{
+    height:220px;
+    width:370px;
+    background-color:#9FB8DB;
+    border-radius: 20px;
+    transition-delay: 1400ms;
+}
+
+.box-image8{ 
+    height:170px ;
+    margin: 10px;
+    padding-top:5px ;
+    background-image: url("art.jpeg");
+    background-size: contain;
+    border-radius: 20px;
+
+}
+
+.arts{
+    height:220px;
+    width:370px;
+    border-radius: 20px;
+    background-color:#9FB8DB;
+    transition-delay: 1600ms;
+}
+
+footer{
+    height: 200px;
+    background-color: blue;
+   
+   
+}
+    
+

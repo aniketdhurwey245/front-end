@@ -1,0 +1,109 @@
+
+
+.head{
+    display:flex;
+    background-color: black;
+    color: rgb(184, 81, 81);
+    font-size: 30px;
+    border:5px;
+    border-radius: 10px;
+    height: 170px;
+    text-align: center;
+
+}
+.image{
+    height:170px;
+    width: 225px;
+    border-radius: 5px;
+ background-image: url("images.jpeg");
+
+
+}
+.container{
+    height:150px;
+    width: 1275px;
+    border-radius: 10px
+
+
+ } 
+ /*#image2{
+
+    height:170px;
+    width: 170px;
+    border-radius: 5px;
+    background-image: url("logo.jpeg");
+ }*/
+.intro{
+display: flex;
+justify-content: space-between;
+height:500px ;
+background-color: rgb(218, 21, 21);
+margin-top: 0px;
+padding-right:10px ;
+border-radius: 10px;
+
+
+
+}
+    
+
+h1{
+    font-size:20px ;
+    text-align: center;
+    color: black;
+     
+}
+#moto{
+    height: 370px;
+    width: 300px;
+    color: rgb(211, 17, 17);
+    background-color: azure;
+    border-radius:10px ;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+#logo{
+height:370px; 
+width: 300px;
+
+background-color: azure;
+border-radius:10px ;
+font-size: 30px;
+text-align: center;
+position: relative;
+    top:10px;
+
+}
+
+.signup-form{
+    height: 370px;
+    width: 300px;
+    border: 2px;
+    background-color: rgb(165, 125, 162);
+    text-align: center; 
+
+margin-right:50px ;
+   
+    border-radius: 10px;
+    position: relative;
+    top:10px;
+}
+input{
+
+
+    border-radius:5px ;
+}
+.btn{
+    color: blue;
+    border-radius:5px ;
+}
+.footer{
+height:200px;
+background-color: rgb(142, 88, 107);
+margin-bottom: 0px;
+
+}
+
+
